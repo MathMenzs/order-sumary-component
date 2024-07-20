@@ -1,0 +1,120 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: url(../images/pattern-background-desktop.svg) no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  min-height: 100vh;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 320px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding-bottom: 35px;
+}
+
+.container .container-image {
+  border-radius: 15px 15px 0 0;
+}
+
+.container .container-image img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.container .info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.container .info .title {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+
+.container .info .text {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  color: hsl(224, 23%, 55%);
+}
+
+.container .info .plan {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  position: relative;
+  padding: 10px 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container .info .plan img {
+  width: 35px;
+  height: 35px;
+}
+
+.container .info .plan .annual-price {
+  margin-left: 13px;
+}
+
+.container .info .plan .annual-price p:last-child {
+  color: hsl(224, 23%, 55%);
+  margin-top: 3px;
+  font-weight: 600;
+}
+
+.container .info .plan a {
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 50px;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+}
+
+.container .proceed {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 11px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.container .cancel {
+  margin-top: 25px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  font-size: 11px;
+}
+
+
+
+
+
+
+
+.container .info .plan .annual-price p:first-child {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.container .info .plan .annual-price p:last-child {
+  font-size: 12px;
+}
+
+
+
+
+
+
